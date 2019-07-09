@@ -1,7 +1,4 @@
-puts "Dis moi un nombre:"
+puts "Quel est ton année de naissance?"
 print "> "
-nombre = gets.chomp.to_i
-
-nombre.times do
-	puts "Salut, ça farte?"
-end
+an = gets.chomp.to_i
+puts "En 2017, tu avais #{2017-an} ans"
